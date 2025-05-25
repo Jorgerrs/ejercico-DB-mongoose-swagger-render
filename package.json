@@ -1,20 +1,27 @@
 {
-    "name": "ejercicio-mongo-solucion",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "nodemon index.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "dotenv": "^16.4.1",
-        "express": "^4.18.2",
-        "mongoose": "^8.1.1",
-        "swagger-ui-express": "^5.0.0"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.3"
-    }
+  "name": "ejercico-crud-db-mongoose",
+  "version": "1.0.0",
+  "description": "Esta es una aplicación sencilla en Node.js utilizando Express con mongoose y Atlas para crear una API de tareas, donde podras crear, ver tareas, actulizar y borrarlas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgerrs/ejercico-CRUD-DB-mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgerrs/ejercico-CRUD-DB-mongoose/issues"
+  },
+  "homepage": "https://github.com/Jorgerrs/ejercico-CRUD-DB-mongoose#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "swagger-ui": "^5.22.0",
+    "swagger-ui-express": "^5.0.1"
+  }
 }
